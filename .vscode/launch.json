@@ -8,19 +8,12 @@
             "name": "Python: Django",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}\\server\\manage.py",
+            "program": "${workspaceFolder}\\bug_tracker_site\\manage.py",
             "args": [
                 "runserver",
                 "--noreload"
             ],
             "django": true
-        },
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
         }
     ]
 }
