@@ -1,3 +1,5 @@
+"""Registers app models with site admin page."""
 from django.contrib import admin
+from .models import BlogPost
 
-# Register your models here.
+admin.site.register(BlogPost)
