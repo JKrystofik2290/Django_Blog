@@ -11,3 +11,6 @@ class BlogPost(models.Model):
     time_posted = models.TimeField(default=timezone.now)
     title = models.CharField(max_length=100)
     content = models.TextField()
+
+    def __str__(self):
+        return f'{self.title}'  # pylint: disable='no-member'
