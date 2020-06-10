@@ -18,3 +18,8 @@ def register(request):
         form = UserRegisterForm()
 
     return render(request, 'user_reg.html', {'form': form})
+
+
+def profile(request):
+    """Serves the users profile page"""
+    return render(request, 'profile.html')
