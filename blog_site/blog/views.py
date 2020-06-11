@@ -5,6 +5,7 @@ from django.views.generic import (ListView, DetailView, CreateView, UpdateView,
                                   DeleteView)
 from .models import BlogPost
 
+# was replaced with class bassed view "PostListView"
 # def index(request):
 #     """Serves the index page of blog app"""
 #     context = {'posts': BlogPost.objects.all()}  # pylint: disable='no-member'
@@ -17,6 +18,7 @@ class PostListView(ListView):
     template_name = 'blog_index.html'
     context_object_name = 'posts'
     ordering = ['-date_posted', '-time_posted']
+    paginate_by = 5
 
 
 class PostDetailView(DetailView):
