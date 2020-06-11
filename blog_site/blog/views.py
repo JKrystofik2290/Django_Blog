@@ -27,7 +27,6 @@ class UserPostListView(ListView):
     model = BlogPost
     template_name = 'user_posts.html'
     context_object_name = 'posts'
-    # ordering = ['-date_posted', '-time_posted']
     paginate_by = 5
 
     def get_queryset(self):
