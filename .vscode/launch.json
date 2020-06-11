@@ -8,7 +8,7 @@
             "name": "Python: Django",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}\\bug_tracker_site\\manage.py",
+            "program": "${workspaceFolder}\\blog_site\\manage.py",
             "args": [
                 "runserver",
                 "--noreload"
