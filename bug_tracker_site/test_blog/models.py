@@ -2,6 +2,7 @@
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
+from django.urls import reverse
 
 
 class BlogPost(models.Model):
@@ -14,3 +15,7 @@ class BlogPost(models.Model):
 
     def __str__(self):
         return f'{self.title}'  # pylint: disable='no-member'
+
+    def get_absolute_url(self):
+        """Redirects to post details after a post is created"""
+        return reverse('post-detail', kwargs={'pk': self.pk})
