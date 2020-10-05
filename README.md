@@ -1,5 +1,5 @@
 # Django Blog
-Simple Django blog that was created by following Corey Schafers Django youtube series turorial.
+Simple Django blog that was created by following Corey Schafers Django youtube series.
 
 ## Try the blog yourself!
 https://my-test-django-blog.herokuapp.com/
