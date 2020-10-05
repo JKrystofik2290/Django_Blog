@@ -21,3 +21,4 @@ https://my-test-django-blog.herokuapp.com/
 - Cascading database (When user deletes acount, all user post are deleted).
 - Post editing/deletion are restricted to post owner.
 - Page to see all post by one user.
+- User profile page.
