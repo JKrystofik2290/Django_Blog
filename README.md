@@ -1,7 +1,7 @@
 # Django Blog
 Simple Django blog that was created by following Corey Schafers Django youtube series turorial.
 
-Use the blog yourself at: https://my-test-django-blog.herokuapp.com/
+# Try the blog yourself at: https://my-test-django-blog.herokuapp.com/
 
 ## Uses
 - Python
